@@ -1,10 +1,55 @@
-.container{
-    width: 50vw;
- margin: 0 auto;
-}
-.T1{
-    background-color:#FDFBF1;
-}
-p{
+body{ font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
+    color: #333;
+    margin: 0;
+}
+#logo{
+    width: 200px;
+    margin: 1rem;
+}
+nav {
+   padding: 1rem 0;
+    background-color: #FDFBF1;
+    border-top: 1px solid #FFD877;
+    color: #004D4C;
+    font-size: 0.8rem;
+    margin-bottom:  4rem;
+}
+
+
+h2{
+    text-align: center;
+    margin-bottom: 2rem;
+    padding: 30px;
+}
+#content{
+    width: 50vw;
+    text-align: left;
+    margin: 0 auto;
+    
+}
+#author{
+    display: block;
+    color: gray;
+    text-align: center;
+    margin-top: 1rem;
+}
+.focaccia{
+    width:20vw;
+    display: block;
+    block-size: 50%;
+    margin: 0 auto;
+}
+#featured{
+    border-left: 1px solid orange;
+    padding-left: 1rem;
+    margin-top: 1rem;
+}
+#featured span{
+    color: red;
+    display: block;
+}
+.section-header{
+margin-bottom: 2rem;
+border-bottom: 1px solid black;
 }
